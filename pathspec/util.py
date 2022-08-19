@@ -277,7 +277,6 @@ def iter_tree(root, on_error=None, follow_links=None):
 	return iter_tree_files(root, on_error=on_error, follow_links=follow_links)
 
 
-
 def lookup_pattern(name: str) -> Callable[[AnyStr], Pattern]:
 	"""
 	Lookups a registered pattern factory by name.
